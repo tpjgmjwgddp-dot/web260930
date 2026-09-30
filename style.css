@@ -1,0 +1,26 @@
+body{
+  font-size: 14px;
+}
+hearder, main, footer{
+  margin:20px;
+  padding: 10px;
+  border: solid 5px #CCCCCC;
+}
+h1 { color : green;
+  background-color: lightpink;
+  border: solid 5px #CCCCCC;
+  text-align:center;
+  width: 90vw;
+  padding: 20px;
+  margin:20px;
+  font-size: 5em
+   }
+.contect{
+  display: inline-block;
+  width: 28%;
+  height: 100%;
+  border: solid 1px black;
+  margin: 10px;
+  padding: 5px;
+}
+h3{background-color : black; color:white}
