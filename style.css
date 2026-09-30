@@ -1,21 +1,27 @@
-body{
+body {
   font-size: 14px;
 }
-hearder, main, footer{
-  margin:20px;
+
+/* 1. 오타 수정: hearder -> header */
+header, main, footer {
+  margin: 20px;
   padding: 10px;
   border: solid 5px #CCCCCC;
 }
-h1 { color : green;
+
+h1 { 
+  color: green;
   background-color: lightpink;
   border: solid 5px #CCCCCC;
-  text-align:center;
+  text-align: center;
   width: 90vw;
   padding: 20px;
-  margin:20px;
-  font-size: 5em
-   }
-.contect{
+  margin: 20px;
+  font-size: 5em; /* 2. 세미콜론(;) 누락 수정 */
+}
+
+/* 클래스명이 'contact'의 오타인지 확인이 필요하지만, 현재 문법 자체는 유효합니다 */
+.contect {
   display: inline-block;
   width: 28%;
   height: 100%;
@@ -23,4 +29,34 @@ h1 { color : green;
   margin: 10px;
   padding: 5px;
 }
-h3{background-color : black; color:white}
+
+article div::before {
+  content: "[영화소개]";
+  font-weight: 900;
+  color: darkgreen;
+}
+
+/* 3. 띄어쓰기 및 중괄호(}) 누락 수정 */
+article div::after {
+  content: "[더보기]";
+  font-style: italic;
+}
+
+a {
+  text-decoration: none;
+  color: darkred;
+}
+
+a:visited {
+  color: orange;
+}
+
+a:hover {
+  background-color: blue;
+  color: white;
+}
+
+a:active {
+  background-color: darkred;
+  color: white;
+}
