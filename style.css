@@ -1,5 +1,10 @@
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&display=swap');
+</style>
+폰트가져오기 공부
 body {
   font-size: 14px;
+  font-family: "Black Han Sans", serif; 
 }
 
 header, main, footer {
@@ -26,7 +31,11 @@ h1 {
   margin: 10px;
   padding: 5px;
 }
-
+article div {
+  background-color: lightgray;
+  padding: 15px 5px 10px 5px;
+  margin-bottom: 20px;
+}
 article div::before {
   content: "[영화소개]";
   font-weight: 900;
@@ -55,4 +64,7 @@ a:hover {
 a:active {
   background-color: darkred;
   color: white;
+}
+article:nth-child(2){
+  background-color: lightgreen;
 }
